@@ -1,0 +1,11 @@
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+
+(menu-bar-mode -1)
+(setq inhibit-startup-screen t)
+(setq visible-bell nil)
+(setq ring-bell-function 'ignore)
+(ido-mode t)
+(setq-default indent-tabs-mode nil)
+(setq auto-save-default nil)
+(setq make-backup-files nil)
